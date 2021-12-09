@@ -1,6 +1,8 @@
 .box-div{
     background-color: rgb(24, 21, 21);
     height: 700px;
+    width: 100%;
+
 }
 .div-row3{  
     position: relative;
