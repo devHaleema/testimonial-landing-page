@@ -1,0 +1,101 @@
+.box-div{
+    background-color: rgb(24, 21, 21);
+    height: 700px;
+}
+.div-row3{  
+    position: relative;
+    height: 400px;
+    padding-top: 10px;
+    
+}
+.subscribe{
+    width: 350px;
+    height: 300px;
+    padding-bottom: 5px; 
+    margin: -25px 10px 0 150px;
+    
+}
+.head{
+    color: white;
+    margin: 20px 100px 0 50px;
+}
+.sub-text{
+    color: white;
+    margin: 0 100px 0 50px;
+    font-size: 14px;
+    
+}
+.wrap {
+    display: inline-block;
+    position: relative;
+    margin: 20px 100px 0 50px;
+    
+}
+
+input[type=text] {
+    padding: 10px;
+    width: 300px;
+    padding-right: 60px;
+}
+
+input[type=button] {
+    padding: 3px;
+    position: absolute;
+    right: 0.5px;
+    top: 1px;
+    height: 20px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.list-head{
+    color: white;
+}
+.last{
+    list-style: none;
+    color: white;
+    font-size: 12px;
+    margin-top: 2px;
+}
+
+@media screen and (max-width: 780px){
+
+    .subscribe{
+        width: 200px;
+        height: 150px;
+        padding-bottom: 5px; 
+        margin: -15px 100px 0 150px;
+        
+    }
+    .head{
+        color: white;
+        margin: 10px 100px 0 150px;
+        font-size: 14px;
+    }
+    .sub-text{
+        color: white;
+        margin: 0 100px 0 150px;
+        font-size: 12px;   
+    }
+    .wrap {
+        display: inline-block;
+        position: relative;
+        margin: 20px 100px 0 150px;
+        
+    }
+    .list{
+        margin-bottom: 0px;
+        display: block;
+        
+    }
+    .list-head{
+        margin: 0 100px 0 150px;
+    }
+    .last{
+        margin: 0 100px 0 150px;
+    }
+}
+
