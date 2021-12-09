@@ -2,7 +2,7 @@ import React from "react";
 import "./footer.css";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
-import subscribe from "C:/Users/HALIMA/projects/testimonial/src/assests/subscribe.png";
+import subscribe from "./assests/subscribe.png";
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';

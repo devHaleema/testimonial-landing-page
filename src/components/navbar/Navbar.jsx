@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import MenuIcon from "@mui/icons-material/Menu";
 import CancelIcon from "@mui/icons-material/Cancel";
 import { Link } from "react-router-dom";
-import vasitilogo from "C:/Users/HALIMA/projects/testimonial/src/assests/vasitilogo.jpg"
+import vasitilogo from "./asset/vasitilogo.jpg";
 import "./navbar.css";
 
 function Navbar() {
